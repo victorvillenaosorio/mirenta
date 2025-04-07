@@ -115,7 +115,7 @@ export default function ModernLandingUploader() {
           <div className="bg-slate-900 text-white p-2 rounded-lg">
             <TrendingUp className="h-5 w-5" />
           </div>
-          <span className="font-bold text-xl">FiscalPro</span>
+          <span className="font-bold text-xl">MiRenta</span>
         </div>
 
         <div className="hidden md:flex items-center gap-6">
@@ -155,45 +155,6 @@ export default function ModernLandingUploader() {
               identificando oportunidades de ahorro y posibles devoluciones.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white">
-                Comenzar ahora
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-
-              <Button variant="outline" size="lg">
-                Ver demostración
-              </Button>
-            </div>
-
-            <div className="flex items-center gap-6 pt-6">
-              <div className="flex -space-x-2">
-                <Image
-                  src="/placeholder.svg?height=40&width=40"
-                  width={40}
-                  height={40}
-                  alt="Usuario"
-                  className="rounded-full border-2 border-white"
-                />
-                <Image
-                  src="/placeholder.svg?height=40&width=40"
-                  width={40}
-                  height={40}
-                  alt="Usuario"
-                  className="rounded-full border-2 border-white"
-                />
-                <Image
-                  src="/placeholder.svg?height=40&width=40"
-                  width={40}
-                  height={40}
-                  alt="Usuario"
-                  className="rounded-full border-2 border-white"
-                />
-              </div>
-              <p className="text-sm text-slate-600">
-                <span className="font-semibold">+2,500 usuarios</span> han optimizado sus declaraciones
-              </p>
-            </div>
           </div>
 
           <div>
@@ -390,8 +351,7 @@ export default function ModernLandingUploader() {
 
                       <div className="mt-6 pt-6 border-t border-slate-100">
                         <p className="text-xs text-slate-500 text-center">
-                          Tus datos están seguros. Todos los archivos se procesan de forma segura y se eliminan después
-                          de 24 horas.
+                          Todos los archivos se procesan de forma segura, no nos guardamos tus archivos, y se usa inteligencia artificial para procesar y extraer la información.
                         </p>
                       </div>
                     </div>
@@ -406,7 +366,7 @@ export default function ModernLandingUploader() {
       {/* Features Section */}
       <div className="container mx-auto px-4 py-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-slate-900">¿Por qué elegir FiscalPro?</h2>
+          <h2 className="text-3xl font-bold text-slate-900">¿Por qué elegir MiRenta?</h2>
           <p className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
             Nuestra plataforma utiliza tecnología avanzada para analizar tu declaración fiscal y encontrar oportunidades
             de ahorro.
@@ -420,7 +380,7 @@ export default function ModernLandingUploader() {
             </div>
             <h3 className="text-xl font-semibold text-slate-900">Análisis Inteligente</h3>
             <p className="mt-2 text-slate-600">
-              Nuestro algoritmo analiza cada detalle de tu declaración para maximizar tu devolución.
+              La inteligencia artificial analiza cada detalle de tu declaración para maximizar tu devolución.
             </p>
           </div>
 
@@ -440,7 +400,7 @@ export default function ModernLandingUploader() {
             </div>
             <h3 className="text-xl font-semibold text-slate-900">100% Seguro</h3>
             <p className="mt-2 text-slate-600">
-              Tu información está protegida con encriptación de nivel bancario y nunca se comparte.
+              Enviamos tu archivo de forma segura a una inteligencia artificial que lo analiza y es capaz de extraer la información. No nos guardamos tus archivos.
             </p>
           </div>
         </div>
