@@ -118,7 +118,7 @@ export default function ModernLandingUploader() {
           <span className="font-bold text-xl">MiRenta</span>
         </div>
 
-        <div className="hidden md:flex items-center gap-6">
+        {/* <div className="hidden md:flex items-center gap-6">
           <a href="#" className="text-sm font-medium text-slate-600 hover:text-slate-900">
             Cómo funciona
           </a>
@@ -131,11 +131,11 @@ export default function ModernLandingUploader() {
           <a href="#" className="text-sm font-medium text-slate-600 hover:text-slate-900">
             Contacto
           </a>
-        </div>
+        </div> */}
 
-        <Button variant="outline" size="sm" className="hidden md:flex">
+        {/* <Button variant="outline" size="sm" className="hidden md:flex">
           Iniciar sesión
-        </Button>
+        </Button> */}
       </nav>
 
       {/* Hero Section */}
